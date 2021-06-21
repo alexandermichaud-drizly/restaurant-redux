@@ -11,7 +11,7 @@ const Cuisine =  () => {
   const cuisine = useAppSelector(selectCuisine);
 
   return (
-  <div>
+    <div>
       <h1>Select a cuisine to see menu options</h1>
       <p>{(cuisine !== Cuisines.NONE) ? cuisine : null}</p>
       <ul>
@@ -25,7 +25,7 @@ const Cuisine =  () => {
           }
         })}
       </ul>
-  </div>
+    </div>
   );
 }
 
